@@ -1,0 +1,3 @@
+data.c and file.c retreive data from api and store it in response.txt.
+
+processoutput.txt contain data processed with the help of jansson libarary from processfile.c,which basically append the data on it every time we call api.
