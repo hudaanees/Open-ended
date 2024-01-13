@@ -3,8 +3,8 @@
 #include <string.h>
 #include <curl/curl.h>
 
-#define USERNAME "noorhudahuda72@gmail.com"
-#define APP_PASSWORD "tubn pwsh uzrs noro"
+#define USERNAME "mygmail@gmail.com"
+#define APP_PASSWORD "**** **** **** ****"
 
 struct UploadStatus {
     const char *data;
@@ -63,7 +63,7 @@ int main(void) {
     if (curl) {
         // Set email parameters
         const char *from = USERNAME;
-        const char *to = "noorulhudaanees@gmail.com";
+        const char *to = "recipientgmail@gmail.com";
         const char *subject = "ALERT";
 
         // Read content from anomalies.txt
