@@ -35,4 +35,4 @@ readings.
 --Documentation and Code Organization:
 
 **Develop comprehensive documentation for the monitoring system. Use header files to modularize the C code and enhance code readability.        
-*with the collab of noorulhuda and urooj ftima*
+*with the collab of noorulhuda and urooj fatima*
