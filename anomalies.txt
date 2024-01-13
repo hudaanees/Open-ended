@@ -1,0 +1,2 @@
+Low Wind Speed Anomaly Detected: 0.41 m/s, City Name: Africa
+High Temperature Anomaly Detected: 311.97°C, City Name: Africa
