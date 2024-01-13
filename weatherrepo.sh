@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Your C program executable to analyze environmental data
-./your_c_program_executable
+# my C program executable to analyze environmental data
+./p
 
 # Check if processoutput.txt is generated
 if [ -e "processoutput.txt" ]; then
@@ -9,7 +9,7 @@ if [ -e "processoutput.txt" ]; then
 
     # Prepare email content
     email_content="Subject: Weather Report\n\n$(cat processoutput.txt)"
-
+# my c program executable to mail
     ./m
 
     echo "Email report sent."
