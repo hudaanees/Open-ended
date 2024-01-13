@@ -32,8 +32,8 @@ int main(void) {
     }
 
     // Variables to store temperature and wind speed
-    double temperature = 0.0;  // Initialize with a default value
-    double windSpeed = 0.0;    // Initialize with a default value
+    double temperature = 0.0;  
+    double windSpeed = 0.0;    
 
     // Loop through each line in the file
     char line[256];
