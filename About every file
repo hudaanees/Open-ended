@@ -1,3 +1,5 @@
-data.c and file.c retreive data from api and store it in response.txt.
-🌤️this
-processoutput.txt contain data processed with the help of jansson libarary from processfile.c,which basically append the data on it every time we call api.
+🌤️data.c and file.c retreive data from api and store it in response.txt.
+🌤️processoutput.txt contain data that processed with the help of jansson libarary from processfile.c,which basically append the data on it every time we call api.
+🌤️anomalydetector.h is a header file contain function declaration and structure definition to detect anomalies in temperature ans windspeed and for building the program we use anomaly.c, anomalies.txt contain the anomalies this program detect.
+🌤️mail.c and bashscript which is weatherrepo.sh basically reads data from processoutput.txt and send a report to user everyday.
+🌤️autogenerate.txt contain crontab jobs that automate our processing and report generation, if there is an error in automation then i save it in log files.
