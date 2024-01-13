@@ -66,7 +66,7 @@ int main(void) {
         const char *to = "recipientgmail@gmail.com";
         const char *subject = "ALERT";
 
-        // Read content from anomalies.txt
+        // Read content 
         char *anomaliesContent = readFile("processoutput.txt");
 
         // Construct the email payload
