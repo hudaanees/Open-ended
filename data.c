@@ -25,7 +25,7 @@ int main(void)
   // curl_easy_setopt() is used to set the options for the request, we MUST set
   // the CURLOPT_URL, i.e. where the request will be to, and we setup a request
   // to google.com.
-  curl_easy_setopt(curl, CURLOPT_URL, "https://api.openweathermap.org/data/2.5/weather?q=karachi&appid=a2730aab71711ac1da5145d01b652ae6");
+  curl_easy_setopt(curl, CURLOPT_URL, "https://api.openweathermap.org/data/2.5/weather?q=Africa&appid=a2730aab71711ac1da5145d01b652ae6");
   // curl_easy_perform() will perform the request and return a CURLcode result. 
   // By default the function will output the response to standard output (i.e. 
   // the terminal by default).  We could store the response in a string using
