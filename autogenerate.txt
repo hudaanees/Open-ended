@@ -23,5 +23,5 @@
 # m h  dom mon dow   command
 01 12,13 * * * cd /home/noor/Desktop && gcc file.c -o d -lcurl && ./d /home/noor/Desktop/logfile.log 2>&1
 02 12,13 * * * cd /home/noor/Desktop && gcc processfile.c -o p -ljansson && ./p /home/noor/Desktop/logfile2.log 2>&1
-00 14 * * * cd /home/noor/Desktop && gcc mlll.c -o m -lcurl && ./m /home/noor/Desktop/logfile3.log 2>&1
+00 14 * * * cd /home/noor/Desktop && gcc mail.c -o m -lcurl && ./m /home/noor/Desktop/logfile3.log 2>&1
 01 14 * * * cd /home/noor/Desktop/weatherrepo.sh
